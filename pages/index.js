@@ -58,7 +58,7 @@ export default function Home() {
 					<div className="shadow-md bg-red-100 p-10 rounded">
 						<div>
 							<h2 className="text-2xl text-red-900 font-bold mb-4 text-center">
-								Top Buyers
+								Top Sellers
 							</h2>
 						</div>
 						<Table rows={stockData?.sellers} type="sell" loading={loading} />

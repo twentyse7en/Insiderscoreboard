@@ -8,7 +8,7 @@ export default function Layout({ children }) {
 	return (
 		<div className="flex flex-col min-h-screen app-layout">
 			<Head>
-				<title>my next app</title>
+				<title>InsiderScoreboard</title>
 				{/* Add more tags */}
 				<meta name="keywords" content=""/>
 			</Head>
