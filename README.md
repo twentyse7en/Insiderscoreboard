@@ -1,29 +1,24 @@
-# Next.js + Tailwind CSS Example
+# Insider Scoreboard [WIP]
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<div align="center">
+<p > 
+  ⚡ Instantly checkout highest insider buying/selling ⚡
+</p>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<img src="https://user-images.githubusercontent.com/59721339/138923828-c7b455e8-d249-4adb-b34f-14520b33196c.png" align="center" height="400px">
+</div>
 
-## Preview
+## Intro
+### Why?
+Insiders know how well their company works. If insider is buying back
+their stock, then they are confident. Insider transaction are availble in both [NSE](https://www.nseindia.com/companies-listing/corporate-filings-insider-trading) and BSE. Issue with this data is that, it shows every transaction. All we want is comprehensive view,
+is they buying or selling? 
+### Solution
+For each timeframe (week, month, year), get the total buying and selling of the stock by insider and rank it by difference. Tada, now
+you get a comprehensive view.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## TODO
+- [ ] Automate the updation of data
+- [ ] currently sorting based on difference in amount of total buy/sell, add other meaningful factors to sort
+- [ ] show more stocks, along with other info?
+- [ ] Export data?
